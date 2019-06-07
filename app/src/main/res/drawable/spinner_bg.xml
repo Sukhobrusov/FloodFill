@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"
+          android:drawable="@android:color/white" />
+    <item android:state_selected="true"
+          android:drawable="@android:color/white" />
+
+    <item>
+        <layer-list>
+            <item>
+                <!--<inset android:inset="2dp">-->
+                    <shape android:shape="rectangle">
+                        <stroke android:width="2dp"
+                                android:color="#000" />
+                        <solid android:color="#f0f0f0" />
+                    </shape>
+                <!--</inset>-->
+            </item>
+
+            <item
+                    android:drawable="@drawable/ic_arrow"
+                    android:gravity="right">
+            </item>
+        </layer-list>
+    </item>
+
+
+</selector>

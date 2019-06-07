@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flood fill</string>
+
+    <string-array name="spinner_algorithms">
+        <item>Западно-восточный алгоритм</item>
+        <item>Заливка окрестности Фон Неймана</item>
+        <item>Заливка окрестности Мура</item>
+    </string-array>
+</resources>
